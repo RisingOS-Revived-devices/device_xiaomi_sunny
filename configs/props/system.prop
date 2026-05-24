@@ -26,6 +26,9 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 
+# SurfaceFlinger
+debug.renderengine.blur_algorithm=kawase2
+
 # WiFi
 wifi.interface=wlan0
 
