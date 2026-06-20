@@ -251,11 +251,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     KProfiles
 
-# Kernel
-LOCAL_KERNEL := device/xiaomi/sunny-kernel/Image
-PRODUCT_COPY_FILES += \
-	$(LOCAL_KERNEL):kernel
-PRODUCT_ENABLE_UFFD_GC := true
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.xiaomi
 
 # HIDL
 PRODUCT_PACKAGES += \
