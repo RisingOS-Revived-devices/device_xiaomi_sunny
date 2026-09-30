@@ -28,6 +28,7 @@ telephony.lteOnCdmaDevice=1
 
 # SurfaceFlinger
 debug.renderengine.blur_algorithm=kawase2
+ro.surface_flinger.blur_disabled_by_default=true
 
 # WiFi
 wifi.interface=wlan0
