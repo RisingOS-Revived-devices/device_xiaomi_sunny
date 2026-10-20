@@ -122,6 +122,8 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 $(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservice_extension.sunny)
 
+$(call inherit-product, device/xiaomi/miuicamera-sunny/device.mk)
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend

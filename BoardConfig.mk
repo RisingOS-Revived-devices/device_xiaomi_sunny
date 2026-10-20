@@ -58,6 +58,7 @@ TARGET_OTA_ASSERT_DEVICE := mojito|sunny|mojito_global|sunny_global
 
 # Camera
 TARGET_CAMERA_BOOTTIME_TIMESTAMP := true
+include device/xiaomi/miuicamera-sunny/BoardConfig.mk
 
 # Display
 TARGET_SCREEN_DENSITY := 440
